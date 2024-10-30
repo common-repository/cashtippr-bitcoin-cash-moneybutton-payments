@@ -1,0 +1,21 @@
+{
+  "name": "@ekliptor/CashTippr",
+  "version": "1.0.0",
+  "description": "TypeScript code for the CashTippr.com Wordpress plugin.",
+  "main": "build/bundle.js",
+  "private": false,
+  "author": "Ekliptor",
+  "license": "GPL",
+  "scripts": {
+    "watch": "webpack --progress --colors --watch"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/es6-shim": "^0.31.39",
+    "@types/jquery": "^3.5.1",
+    "awesome-typescript-loader": "^5.0.0",
+    "source-map-loader": "^0.2.3",
+    "typescript": "3.9.5"
+  }
+}
